@@ -2,10 +2,5 @@
 <pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
-    version="6.4.0" timestamp="2018-07-17T23:31:42.614">
-<file name="/home/edmilsonbatista/Documentos/alura/maven_projeto/produtos/src/main/java/br/com/alura/maven/Produto.java">
-<violation beginline="7" endline="7" begincolumn="30" endcolumn="38" rule="UnusedPrivateField" ruleset="Best Practices" package="br.com.alura.maven" class="Produto" variable="categoria" externalInfoUrl="https://pmd.github.io/pmd-6.4.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
-Avoid unused private fields such as 'categoria'.
-</violation>
-</file>
+    version="6.4.0" timestamp="2018-07-18T00:08:01.267">
 </pmd>

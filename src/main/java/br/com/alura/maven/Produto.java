@@ -4,7 +4,6 @@ public class Produto {
 
 	private final String nome;
 	private final double preco;
-	private final String categoria = "comida";
 
 	public Produto(String nome, double preco) {
 		super();
@@ -18,6 +17,11 @@ public class Produto {
 
 	public double getPreco() {
 		return preco;
+	}
+
+	public double getPrecoImposto() {
+		// TODO Auto-generated method stub
+		return preco * 1.10;
 	}
 
 }
